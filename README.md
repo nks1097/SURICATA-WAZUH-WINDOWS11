@@ -22,7 +22,7 @@ Baixe e instale o Suricata normalmente:
 
 ### 3. Baixar as regras do Suricata
 Baixe o arquivo `emerging-all.rules` no link abaixo:
-[https://rules.emergingthreats.net/open/](https://rules.emergingthreats.net/open/)
+[https://rules.emergingthreats.net/open/](https://rules.emergingthreats.net/open/suricata-7.0.3/)
 
 ![Imagem 7](imagens/3.png)
 
