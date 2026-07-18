@@ -42,11 +42,15 @@ address-groups:
     HOME_NET: "[**IPWINDOWS11**]"
 ```
 
+![Imagem 1](imagens/1.png)
+
 Na mesma configuração, ajuste os arquivos de regras (`rule-files`) para incluir o que acabamos de baixar:
 ```yaml
 rule-files:
  - emerging-all.rules
 ```
+
+![Imagem 5](imagens/5.png)
 
 ### 6. Descobrir o UUID da placa de rede
 Para iniciar o Suricata, precisamos do identificador único (UUID) da sua interface de rede.
@@ -58,6 +62,8 @@ Where-Object { $_.IPAddress } |
 Select-Object @{n="IPAddress";e={$_.IPAddress -join ", "}}, SettingID
 ```
 *Anote o UUID (SettingID) que corresponde ao seu IP.*
+
+![Imagem UUID](imagens/UUID.png)
 
 ### 7. Iniciar o Suricata
 Abra o **CMD como administrador** e execute o seguinte comando, substituindo `{*************UUID*************}` pelo UUID que você encontrou no passo anterior:
@@ -89,12 +95,16 @@ Adicione as linhas abaixo dentro da seção `<ossec_config>` para coletar os ale
 </ossec_config>
 ```
 
+![Imagem 7](imagens/7.png)
+
 ### 9. Reiniciar o serviço do Wazuh-Agent
 No **CMD como administrador**, execute:
 ```cmd
 net stop Wazuh
 net start Wazuh
 ```
+
+![Imagem 8](imagens/8.png)
 
 ### 10. Validar
 Acesse o seu Wazuh Dashboard e verifique se os alertas gerados pelo Suricata começaram a chegar!
