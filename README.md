@@ -76,10 +76,10 @@ Abra o **CMD como administrador** e execute o seguinte comando, substituindo `{*
 ```cmd
 "C:\Program Files\Suricata\suricata.exe" -c "C:\Program Files\Suricata\suricata.yaml" -i \Device\NPF_{*************UUID*************}
 ```
+![Imagem 7](imagens/suricata.png)
 
 *(Para testar, você pode realizar um ping a partir de outro computador e verificar se os alertas estão sendo gerados no arquivo `C:\Program Files\Suricata\log\eve.json`)*.
 
-![Imagem 7](imagens/suricata.png)
 ---
 
 ## 🛡️ Configurar Wazuh-Agent
