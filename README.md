@@ -81,6 +81,7 @@ Abra o **CMD como administrador** e execute o seguinte comando, substituindo `{*
 *(Para testar, você pode realizar um ping a partir de outro computador e verificar se os alertas estão sendo gerados no arquivo `C:\Program Files\Suricata\log\eve.json`)*.
 
 ---
+![Imagem 7](imagens/eve.png)
 
 ## 🛡️ Configurar Wazuh-Agent
 
