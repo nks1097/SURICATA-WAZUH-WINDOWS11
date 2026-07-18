@@ -24,8 +24,13 @@ Baixe e instale o Suricata normalmente:
 Baixe o arquivo `emerging-all.rules` no link abaixo:
 [https://rules.emergingthreats.net/open/](https://rules.emergingthreats.net/open/)
 
+![Imagem 7](imagens/3.png)
+
+
 Após o download, copie o arquivo para a pasta de regras do Suricata:
 `C:\Program Files\Suricata\rules`
+
+![Imagem 7](imagens/4.png)
 
 ### 4. Descobrir o seu IP (HOME_NET)
 Abra o **CMD** e execute:
