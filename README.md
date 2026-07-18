@@ -27,7 +27,7 @@ Baixe o arquivo `emerging-all.rules` no link abaixo:
 ![Imagem 7](imagens/3.png)
 
 
-Após o download, copie o arquivo para a pasta de regras do Suricata:
+Após o download,extraia e copie o arquivo para a pasta de regras do Suricata:
 `C:\Program Files\Suricata\rules`
 
 ![Imagem 7](imagens/4.png)
